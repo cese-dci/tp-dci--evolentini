@@ -1,0 +1,145 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N7002P
+D 60V Vds, 0.115A Id, N-channel MOSFET, SOT-23
+K N-Channel Switching MOSFET
+F https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf
+$ENDCMP
+#
+$CMP 7_SEGMENTOS_CATODO_COMUN
+D Display de 7 segmentos catodo comun
+$ENDCMP
+#
+$CMP HC-0X
+D Bluetooth Module
+$CMP ESP32-WROOM-32D
+D IC: SoC; GPIO, I2C, I2S, IR, SD, SDIO, SPI, UART; 2.7÷3.6VDC; 20dBm
+$ENDCMP
+#
+$CMP HT6P20B
+D Remote Control Encoder, DIP-8/SOIC-8
+K encoder
+F http://www.holtek.com.tw/documents/10179/11842/6p20v170.pdf
+$ENDCMP
+#
+$CMP ICM7555
+D LED RGB NeoPixel
+K led diode
+F http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf
+$ENDCMP
+#
+$CMP LED_RGB_6PIN_ALT
+D LED RGB generic, alternative symbol
+K led diode
+$ENDCMP
+#
+$CMP LED_RGB_SK6812
+D LED RGB NeoPixel
+K led diode
+$CMP IRF7309IPBF
+D 3A Id, 30V Vds, Dual HEXFET MOSFET, SO-8
+K Dual HEXFET N-Channel P-Channel MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf7309ipbf.pdf
+$ENDCMP
+#
+$CMP LM2575
+D Regulador Switching
+$ENDCMP
+#
+$CMP LMC555xM
+D CMOS Timer, SOIC-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/lmc555.pdf
+$ENDCMP
+#
+$CMP LMC555xMM
+D CMOS Timer, VSSOP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/lmc555.pdf
+$ENDCMP
+#
+$CMP LMC555xN
+D CMOS Timer, DIP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/lmc555.pdf
+$ENDCMP
+#
+$CMP LTV-816S
+D Optoacoplador DC, DIP-4-SMD, Vce 80V, CTR 50%
+K Optoacoplador Optoaislador Optocoupler NPN DC
+F http://optoelectronics.liteon.com/upload/download/DS70-2012-0048/S_110_LTV-8X6%20series%200915.pdf
+$ENDCMP
+#
+$CMP MKE02ZxxVLC4
+D 40MHz Cortex-M0+ 5V/Robust MCU, 16 to 64 KB Flash, 2 to 4 KB SRAM
+F https://www.nxp.com/docs/en/reference-manual/MKE02P64M40SF0RM.pdf
+$ENDCMP
+#
+$CMP MKE04Z
+D 48MHz Cortex-M0+ 5V/Robust MCU, 8KB Flash, 1KB SRAM
+F https://www.nxp.com/docs/en/reference-manual/MKE04P24M48SF0RM.pdf
+$ENDCMP
+#
+$CMP NA555
+D Precision Timers, DIP-8/SOIC-8/SSOP-8
+K timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP NE555
+D Precision Timers, DIP-8/SOIC-8
+K timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP Q_NMOS_GSD_SHOTKLY
+D 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET Logic Level
+F http://www.fairchildsemi.com/ds/BS/BSS138.pdf
+$ENDCMP
+#
+$CMP RELE_SIMPLE_INVERSOR
+D Rele simple inversor
+$ENDCMP
+#
+$CMP RTC_I2C
+D RTC with battery switch-over, time stamp input, and I2C-bus
+K encoder
+F https://www.nxp.com/docs/en/data-sheet/PCF85263A.pdf
+$ENDCMP
+#
+$CMP RWS374
+D Receptor de 374 MHz
+$ENDCMP
+#
+$CMP SA555
+D Precision Timers, DIP-8/SOIC-8
+K timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SE555
+D Precision Timers, DIP-8/SOIC-8
+K timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP TLC555CD
+D Single LinCMOS Timer, SOIC-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
+$ENDCMP
+#
+$CMP TLC555CP
+D Single LinCMOS Timer, DIP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
+$ENDCMP
+#
+$CMP TLC555CPS
+D Single LinCMOS Timer, SSOP-8
+K single timer
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
+$ENDCMP
+#
+#End Doc Library
