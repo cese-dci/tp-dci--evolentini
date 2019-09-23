@@ -1,4 +1,4 @@
-(module SD_AMPHENOL_114_00841_68 (layer F.Cu) (tedit 5B0AFFFD)
+(module SD_AMPHENOL_114_00841_68 (layer F.Cu) (tedit 5D87B123)
   (tags "SD CARD AMPHENOL")
   (attr smd)
   (fp_text reference REF** (at 1.5 -11.5) (layer F.SilkS)
@@ -41,8 +41,8 @@
   (pad 10 smd rect (at 10.15 -9.925) (size 1 1.55) (layers F.Cu F.Paste F.Mask))
   (pad 11 smd rect (at -1.475 -6.1) (size 0.8 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd rect (at -1.125 -7.85) (size 1.45 1) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Housings_SOIC.3dshapes/SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm.wrl
-    (at (xyz 0 0 0))
+  (model ${KISYS3DMOD}/Connector_Card.3dshapes/microSD_HC_Hirose_DM3D-SF.wrl
+    (offset (xyz 4.5 4.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

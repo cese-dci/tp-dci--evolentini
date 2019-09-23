@@ -1,4 +1,4 @@
-(module D_1206_0805_Dual (layer F.Cu) (tedit 5B096FBE)
+(module D_1206_0805_Dual (layer F.Cu) (tedit 5D878C8F)
   (descr "Diodo SMD 1206 / 0805, hand soldering")
   (tags "diodo led 1206 0805")
   (attr smd)
@@ -31,7 +31,7 @@
   (fp_line (start -1.778 -1.143) (end 1.778 -1.143) (layer F.SilkS) (width 0.127))
   (pad 1 smd rect (at -1.2 0) (size 1.3 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.2 0) (size 1.3 1.8) (layers F.Cu F.Paste F.Mask))
-  (model Resistors_SMD.3dshapes/R_1206_HandSoldering.wrl
+  (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_MiniMELF.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

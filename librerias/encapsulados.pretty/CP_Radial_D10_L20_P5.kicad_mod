@@ -1,4 +1,4 @@
-(module CP_Radial_D10_L20_P5 (layer F.Cu) (tedit 5B48BA6D)
+(module CP_Radial_D10_L20_P5 (layer F.Cu) (tedit 5D87AE4E)
   (descr "Radial Electrolytic Capacitor Diameter 10mm x Length 20mm, Pitch 5mm")
   (tags "Electrolytic Capacitor")
   (fp_text reference C7 (at 2.4 -6.6) (layer F.SilkS)
@@ -83,7 +83,7 @@
   (fp_line (start 6.3 -3.2) (end 6.3 3.2) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole rect (at 0 0) (size 1.5 2.5) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 5 0) (size 1.5 2.5) (drill 1) (layers *.Cu *.Mask))
-  (model Capacitors_ThroughHole.3dshapes/C_Radial_D10_L20_P5.wrl
+  (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Radial_D10.0mm_H12.5mm_P5.00mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

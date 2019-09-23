@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name componentes)(type Legacy)(uri ${KIPRJMOD}/../librerias/componentes.lib)(options "")(descr ""))
+  (lib (name ES-PUNKU2-0100-rescue)(type Legacy)(uri ${KIPRJMOD}/ES-PUNKU2-0100-rescue.lib)(options "")(descr ""))
 )
