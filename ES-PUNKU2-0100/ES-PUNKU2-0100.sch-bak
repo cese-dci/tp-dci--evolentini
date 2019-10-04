@@ -7,11 +7,11 @@ encoding utf-8
 Sheet 1 3
 Title "PUNKU"
 Date "2019-09-09"
-Rev "1.00"
+Rev "1.01"
 Comp "EQUISER"
-Comment1 "E.Volentini (2019-09-09)"
-Comment2 ""
-Comment3 ""
+Comment1 "Esteban Volentini (2019-09-09)"
+Comment2 "Agustin Rey (2019-09-25)"
+Comment3 "Martin Ribelotta  (2019-09-27)"
 Comment4 ""
 $EndDescr
 $Sheet
@@ -74,4 +74,80 @@ Wire Wire Line
 	6000 4100 5400 4100
 Wire Wire Line
 	5400 4200 6000 4200
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5D97B5E5
+P 2050 3550
+F 0 "H1" H 2000 3750 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2150 3508 50  0001 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad" H 2050 3550 50  0001 C CNN
+F 3 "~" H 2050 3550 50  0001 C CNN
+	1    2050 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5D97C991
+P 2350 3550
+F 0 "H2" H 2300 3750 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2450 3508 50  0001 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad" H 2350 3550 50  0001 C CNN
+F 3 "~" H 2350 3550 50  0001 C CNN
+	1    2350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5D97CF02
+P 2650 3550
+F 0 "H3" H 2600 3750 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2750 3508 50  0001 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad" H 2650 3550 50  0001 C CNN
+F 3 "~" H 2650 3550 50  0001 C CNN
+	1    2650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5D97D2BE
+P 2950 3550
+F 0 "H4" H 2900 3750 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3050 3508 50  0001 L CNN
+F 2 "MountingHole:MountingHole_4mm_Pad" H 2950 3550 50  0001 C CNN
+F 3 "~" H 2950 3550 50  0001 C CNN
+	1    2950 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3650 2050 3800
+Wire Wire Line
+	2050 3800 2350 3800
+Wire Wire Line
+	2950 3800 2950 3650
+Wire Wire Line
+	2350 3650 2350 3800
+Connection ~ 2350 3800
+Wire Wire Line
+	2350 3800 2500 3800
+Wire Wire Line
+	2650 3650 2650 3800
+Connection ~ 2650 3800
+Wire Wire Line
+	2650 3800 2950 3800
+$Comp
+L power:GND #PWR01
+U 1 1 5D97DCD0
+P 2500 3950
+F 0 "#PWR01" H 2500 3700 50  0001 C CNN
+F 1 "GND" H 2505 3777 50  0000 C CNN
+F 2 "" H 2500 3950 50  0001 C CNN
+F 3 "" H 2500 3950 50  0001 C CNN
+	1    2500 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3950 2500 3800
+Connection ~ 2500 3800
+Wire Wire Line
+	2500 3800 2650 3800
 $EndSCHEMATC
