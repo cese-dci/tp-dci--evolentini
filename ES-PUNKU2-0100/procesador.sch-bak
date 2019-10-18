@@ -61,8 +61,6 @@ Wire Wire Line
 Wire Wire Line
 	10850 6200 10950 6200
 Wire Wire Line
-	10950 6550 10950 6750
-Wire Wire Line
 	10950 6400 9000 6400
 Connection ~ 9000 6400
 Wire Wire Line
@@ -1166,4 +1164,6 @@ F 6 "STMicroelectronics" H 5650 5750 50  0001 C CNN "Fabricante"
 	1    5650 5750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10950 6200 10950 6400
 $EndSCHEMATC

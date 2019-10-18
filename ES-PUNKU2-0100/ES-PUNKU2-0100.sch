@@ -6,10 +6,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "PUNKU"
-Date "2019-09-09"
-Rev "1.01"
+Date "2019-10-18"
+Rev "1.02"
 Comp "EQUISER"
-Comment1 "Esteban Volentini (2019-09-09)"
+Comment1 "Esteban Volentini (2019-10-18)"
 Comment2 "Agustin Rey (2019-09-25)"
 Comment3 "Martin Ribelotta  (2019-09-27)"
 Comment4 ""
@@ -153,45 +153,67 @@ Wire Wire Line
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 5DA52320
-P 2050 3150
-F 0 "FID1" H 2050 3300 50  0000 C CNN
-F 1 "Fiducial" H 2135 3105 50  0001 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 2050 3150 50  0001 C CNN
-F 3 "~" H 2050 3150 50  0001 C CNN
-	1    2050 3150
+P 2200 2650
+F 0 "FID1" H 2200 2800 50  0000 C CNN
+F 1 "Fiducial" H 2285 2605 50  0001 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 2200 2650 50  0001 C CNN
+F 3 "~" H 2200 2650 50  0001 C CNN
+	1    2200 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID2
 U 1 1 5DA52F42
-P 2350 3150
-F 0 "FID2" H 2350 3300 50  0000 C CNN
-F 1 "Fiducial" H 2435 3105 50  0001 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 2350 3150 50  0001 C CNN
-F 3 "~" H 2350 3150 50  0001 C CNN
-	1    2350 3150
+P 2500 2650
+F 0 "FID2" H 2500 2800 50  0000 C CNN
+F 1 "Fiducial" H 2585 2605 50  0001 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 2500 2650 50  0001 C CNN
+F 3 "~" H 2500 2650 50  0001 C CNN
+	1    2500 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID3
 U 1 1 5DA53223
-P 2650 3150
-F 0 "FID3" H 2650 3300 50  0000 C CNN
-F 1 "Fiducial" H 2735 3105 50  0001 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 2650 3150 50  0001 C CNN
-F 3 "~" H 2650 3150 50  0001 C CNN
-	1    2650 3150
+P 2800 2650
+F 0 "FID3" H 2800 2800 50  0000 C CNN
+F 1 "Fiducial" H 2885 2605 50  0001 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 2800 2650 50  0001 C CNN
+F 3 "~" H 2800 2650 50  0001 C CNN
+	1    2800 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID4
 U 1 1 5DA5335B
-P 2950 3150
-F 0 "FID4" H 2950 3300 50  0000 C CNN
-F 1 "Fiducial" H 3035 3105 50  0001 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 2950 3150 50  0001 C CNN
-F 3 "~" H 2950 3150 50  0001 C CNN
-	1    2950 3150
+P 2200 3050
+F 0 "FID4" H 2200 3200 50  0000 C CNN
+F 1 "Fiducial" H 2285 3005 50  0001 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 2200 3050 50  0001 C CNN
+F 3 "~" H 2200 3050 50  0001 C CNN
+	1    2200 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID5
+U 1 1 5DAB5042
+P 2500 3050
+F 0 "FID5" H 2500 3200 50  0000 C CNN
+F 1 "Fiducial" H 2585 3005 50  0001 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 2500 3050 50  0001 C CNN
+F 3 "~" H 2500 3050 50  0001 C CNN
+	1    2500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID6
+U 1 1 5DAB5587
+P 2800 3050
+F 0 "FID6" H 2800 3200 50  0000 C CNN
+F 1 "Fiducial" H 2885 3005 50  0001 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 2800 3050 50  0001 C CNN
+F 3 "~" H 2800 3050 50  0001 C CNN
+	1    2800 3050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
